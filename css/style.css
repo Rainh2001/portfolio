@@ -1,17 +1,27 @@
 * {
     margin: 0;
-    font-family: Pacifico;
+    font-family: Oswald, sans-serif;
 }
 
 body {
     background-color: #eaeaea;
+    text-align: center;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 10%;
+    border-color: rgb(211,211,211);
+    margin: auto;
 }
 
 header {
     width: 100%;
     height: 120px;
-    background-color: #252a34;
+    background-color: #222831;
     position: sticky;
+    text-align: left;
 }
 
 .helper {
@@ -20,8 +30,11 @@ header {
     vertical-align: middle;
 }
 
-header img {
+.profile-pic {
     border-radius: 100%;
+}
+
+header img {
     width: 90px;
     vertical-align: middle;
     margin-left: 30px;
@@ -35,22 +48,21 @@ header table {
 
 header td {
     font-family: Oswald;
-    color: white;
+    color: #6d6d6d;
     transition: all 0.2s ease;
     padding: 0 50px;
 }
 
 header td:hover {
-    color: #ff2e63;
+    color: white;
     font-size: 30px;
 }
 
-
 .introduction {
     text-align: center;
-    color: #08d9d6;
-    background-color: #252a34;
-    height: 700px;
+    color: white;
+    background-color: #222831;
+    height: 600px;
 }
 
 .introduction h1 {
@@ -87,5 +99,68 @@ header td:hover {
 }
 
 .git-link img:hover {
-    width: 75px;
+    width: 70px;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.who-i-am {
+    margin: 100px auto;
+    width: 40%;
+}
+
+.who-i-am-text {
+    padding-top: 25px;
+}
+
+.who-i-am-text p {
+    padding-top: 20px;
+}
+
+.skillset {
+    margin: 100px auto;
+    width: 60%;
+}
+
+.skillset img {
+    width: 100px;
+}
+
+.skillset-table {
+    margin-top: 50px;
+    table-layout: fixed;
+}
+.skillset-table td {
+    width: 50%;
+}
+
+.hobbies {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.hobbies img {
+    width: 100px;
+}
+
+.hobbies-table {
+    margin-top: 50px;
+    table-layout: fixed;
+}
+
+.hobbies-table td{
+    padding: 15px;
+    width: 33%;
+}
+
+footer {
+    background-color: #222831;
+    padding: 40px;
+    color: grey;
 }
